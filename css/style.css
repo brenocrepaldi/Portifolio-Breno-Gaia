@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@200&display=swap');
+
+*{
+    margin:0;
+    border:0;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: bisque;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    justify-content: space-around;
+    background-color: #444444;
+    padding: 20px;
+    text-align: center;
+}
+
+.cabecalho_links_texto {
+    color: bisque;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.cabecalho_email {
+    display: flex;
+}
+
+.main_conteudo {
+    height: 100vh;
+    color: chartreuse;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.main_conteudo_texto {
+    font-size: 2.18rem;
+}
